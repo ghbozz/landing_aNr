@@ -1,0 +1,21 @@
+---
+
+---
+
+// FONTS
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+// IMPORT
+@import 'scss/navbar';
+
+// COLORS
+$dark: rgb(36, 41, 45);
+$light: rgb(244, 244, 244);
+$light-pruple: #7986cb;
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
