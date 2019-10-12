@@ -9,6 +9,10 @@ $light-pruple: #7986cb;
   width: 100%;
   height: calc(100vh - 150px);
   display: flex;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    height: auto;
+  }
 
   // BANNER LEFT
 
@@ -20,6 +24,14 @@ $light-pruple: #7986cb;
     align-items: center;
     justify-content: space-between;
     background-color: $light-pruple;
+    -webkit-box-shadow: 2px 0px 15px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 0px 15px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 0px 15px 3px rgba(0,0,0,0.1);
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      height: 100vh;
+      flex-direction: column;
+    }
 
     .title {
       color: $light;
@@ -43,6 +55,10 @@ $light-pruple: #7986cb;
     height: 100%;
     width: 50%;
     overflow: hidden;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      height: 100vh;
+    }
 
     .owl-wrapper {
       width: 100%;
