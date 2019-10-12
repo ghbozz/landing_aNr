@@ -12,6 +12,16 @@ $(document).ready(function(){
   });
 });
 
-// SLICK
+// BURGER MENU
+
+const toggleActive = (event) => {
+  event.currentTarget.classList.toggle('is-active')
+}
+
+const burgerMenu = document.querySelector('.hamburger')
+
+if (burgerMenu) {
+  burgerMenu.addEventListener('click', toggleActive)
+}
 
 
