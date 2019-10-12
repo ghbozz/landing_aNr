@@ -1,0 +1,40 @@
+// COLORS
+$dark: rgb(36, 41, 45);
+$light: rgb(244, 244, 244);
+$light-pruple: #7986cb;
+
+// BANNER STYLESHEET
+
+.banner {
+  width: 100%;
+  height: calc(100vh - 150px);
+  display: flex;
+
+  .left-banner {
+    height: 100%;
+    width: 50%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $light-pruple;
+
+    .title {
+      color: $light;
+      font-size: 4rem;
+      margin-right: 25px;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+    }
+
+    .subtitle {
+      color: $light;
+      line-height: 3rem;
+    }
+  }
+
+  .right-banner {
+    height: 100%;
+    width: 50%;
+  }
+}

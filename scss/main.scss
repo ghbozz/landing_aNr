@@ -7,6 +7,7 @@
 
 // IMPORT
 @import 'scss/navbar';
+@import 'scss/banner';
 
 // COLORS
 $dark: rgb(36, 41, 45);
@@ -17,5 +18,9 @@ $light-pruple: #7986cb;
   font-family: 'Ubuntu', sans-serif;
 }
 
+.main-container {
+  // min-height: 100vh;
+  width: 100vw;
+}
 
 
