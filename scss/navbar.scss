@@ -8,9 +8,9 @@ $light-pruple: #7986cb;
 .navbar {
   width: 100vw;
   height: 150px;
-  -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
-  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 
   .inner-nav {
     width: 100%;
@@ -37,9 +37,9 @@ $light-pruple: #7986cb;
       transition: all .3s ease-out;
       &:hover {
         background-color: $light-pruple;
-        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
-        -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
-        box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.4);
+        -moz-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.4);
+        box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.4);
       }
     }
 
