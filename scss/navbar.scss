@@ -36,10 +36,10 @@ $light-pruple: #7986cb;
       justify-content: center;
       transition: all .3s ease-out;
       &:hover {
-        background-color: lighten($light-pruple, 30%);
-        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.1);
-        -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.1);
-        box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.1);
+        background-color: $light-pruple;
+        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+        box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
       }
     }
 
@@ -51,14 +51,24 @@ $light-pruple: #7986cb;
 
     .right-nav a:link,
     .right-nav a:visited {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-decoration: none;
       font-size: 1.5rem;
       font-weight: 700;
       color: $light-pruple;
       margin-right: 75px;
+      transition: all .3s ease-out;
 
       &:last-of-type {
         margin-right: 0px;
+      }
+
+      &:hover {
+        color: white;
       }
 
       &::after {
